@@ -2,10 +2,8 @@
 from random import *
 
 print('Укажите размерность матрицы.')
-print("Число строк:", end=' ')
-n = int(input())
-print("Число столбцов:", end=' ')
-m = int(input())
+n = int(input(("Число строк:"))
+m = int(input("Число столбцов:"))
 matrix = [[int(k) for k in [randrange(-9, 10) for _ in range(m)]] for _ in range(n)]
 
 for i in range(n):
